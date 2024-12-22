@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS GRID</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 200px 200px 200px;
+            grid-template-columns: 200px 200px 200px;
+        }
+
+        .items {
+            background-color: rgb(247, 237, 246);
+            border: 3px solid rgb(6, 31, 248);
+            padding: 10px;
+            color: rgb(254, 9, 111);
+            font-weight: 550;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS GRID</h1>
+    <div class="container">
+        <div class="items">
+            The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
+        </div>
+        <div class="items">
+            A grid container contains grid items. By default, a container has one grid item for each column, in each row, but you can style the grid items so that they will span multiple columns and/or rows.
+        </div>
+        <div class="items">
+            The grid-row property defines on which row to place an item. You define where the item will start, and where the item will end.
+        </div>
+    </div>
+</body>
+</html>
